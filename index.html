@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microsoft Assignment</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div>
+    <label class="name-text">Display Name</label>
+    <input type="text" placeholder="Please enter your name" class="name-textbox" id="displayName">
+  </div>
+  <div class="search-div">
+    <i class="fa fa-search seach-icon"></i>
+    <input type="text" placeholder="Search.." class="search" id="search" onchange="search()">
+    <!-- <select>
+      <option value="Text">Filter</option>
+      <option value="Text">Text</option>
+      <option value="Link">Link</option>
+    </select> -->
+  </div>
+  <div id="parent-container" class="parent-container">
+  <div class="container">
+    <span class="user">User1</span>
+    <span class="time">11:00</span>
+    <p class="message">Hello. How are you today?</p>
+  </div>
+  
+  <div class="container darker">
+    <span class="user">User2</span>
+    <span class="time">11:01</span>
+    <p class="message">Hey! I'm fine. Thanks for asking!</p>
+  </div>
+</div>
+<footer class="textarea">
+  <input type="text" id="messagetext" placeholder="Type a new message" class="chat-textbox">
+  <button type="submit" class="send" onclick="send()">Send</button>
+</footer>
+</body>
+</html> 

@@ -1,0 +1,87 @@
+body{
+  background: #f3f3f3;
+  padding:10px;
+  font-family: sans-serif;
+}
+/* Chat containers */
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px 0;
+  width: max-content;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+.parent-container{
+  float: right;
+}
+.name-textbox{
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid #dedede;
+}
+.name-text{
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.search-div{
+  display: flex;
+  margin: 5px;
+}
+.search{
+  padding: 5px;
+  width: 50%;
+  border: 1px solid #dedede;
+  background-color:white;
+  border-left:none;
+}
+.seach-icon{
+  padding: 6px;
+  font-size:12px;
+  border: 1px solid #dedede;
+  background-color: white;
+  border-right:none;
+  color:gray;
+}
+.textarea{
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  display: inline-flex;
+}
+.chat-textbox{
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #dedede;
+  display: flex;
+  position: relative;
+}
+.send{
+  z-index: 1;
+  position: absolute;
+  right: 8px;
+  margin: 10px;
+  padding: 6px;
+  border: 1px solid #dedede;
+  background-color: white;
+}
+.time{
+  color: gray;
+  font-size: 12px;
+}
+.message{
+  font-size: 14px;
+  margin: 5px;
+}
+.user{
+  font-weight: bold;
+  font-size: 14px;
+  margin: 5px;
+}
